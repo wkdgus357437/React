@@ -8,7 +8,7 @@ const Animal = () => {
   const dispatch = useDispatch()
   return (
     <div>
-      <h1>동물의 울음소리</h1>
+      <h1>동물의 울음소리!!</h1>
       <h2>{name} {crying}</h2>
       <p>
         <button onClick={()=> dispatch(tiger())}>호랑이</button>
